@@ -1,12 +1,12 @@
 :root {
   background-color: rgb(77, 77, 77);
   color: white;
-
+  margin: 1rem;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -15,5 +15,15 @@ header {
   border-radius: 50%;
   border: 0.2rem solid green;
   background-color: rgb(204, 200, 200);
+
+}
+
+.Botao {
+  background-color: transparent;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid white;
 
 }
