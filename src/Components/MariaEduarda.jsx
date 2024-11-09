@@ -62,6 +62,7 @@ function MariaEduarda() {
             <button className="Botao" onClick={botaoMultiplicacao}> *   </button>
             <button className="Botao" onClick={botaoDivisao}>       /   </button>
 
+
         </>
     )
 }
