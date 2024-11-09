@@ -1,5 +1,5 @@
 function Hooks() {
-    let n1 = 17;
+    let n1 = 22;
     let n2 = 13;
     let resultadosoma = n1 + n2;
     let resultadosubtracao = n1 - n2;
@@ -11,27 +11,27 @@ function Hooks() {
     return (
         <div>
             <p>
-                O resultado da soma de 17 + 13 é = {resultadosoma}
+                O resultado da soma de {n1} + {n2} é = {resultadosoma}
             </p>
 
             <p>
-                O resultado da subtração de 17 - 13 é = {resultadosubtracao}
+                O resultado da subtração de {n1} - {n2} é = {resultadosubtracao}
             </p>
 
             <p>
-                O resultado da multiplicação de 17 * 13 é = {resultadomultiplicacao}
+                O resultado da multiplicação de {n1} * {n2} é = {resultadomultiplicacao}
             </p>
 
             <p>
-                O resultado da divisão de 17 / 13 é = {resultadodivisao}
+                O resultado da divisão de {n1} / {n2} é = {resultadodivisao}
             </p>
 
             <p>
-                O resultado do modulo de 17 % 13 é = {resultadomodulo}
+                O resultado do modulo de {n1} % {n2} é = {resultadomodulo}
             </p>
 
             <p>
-                O resultado da potencia de 17 ** 13 é = {resultadopotencia}
+                O resultado da potencia de {n1} ** {n2} é = {resultadopotencia}
             </p>
 
         </div>
